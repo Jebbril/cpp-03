@@ -6,15 +6,15 @@
 #    By: orakib <orakib@student.42.fr>              +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2023/08/02 16:43:43 by orakib            #+#    #+#              #
-#    Updated: 2023/08/02 20:07:00 by orakib           ###   ########.fr        #
+#    Updated: 2023/08/03 13:17:21 by orakib           ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
-NAME = FragTrap
+NAME = DiamondTrap
 
-SRC = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp
+SRC = main.cpp ClapTrap.cpp ScavTrap.cpp FragTrap.cpp DiamondTrap.cpp
 
-HEADER = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp
+HEADER = ClapTrap.hpp ScavTrap.hpp FragTrap.hpp DiamondTrap.hpp
 
 CC = c++
 

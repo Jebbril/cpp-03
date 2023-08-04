@@ -6,7 +6,7 @@
 /*   By: orakib <orakib@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/08/02 20:16:49 by orakib            #+#    #+#             */
-/*   Updated: 2023/08/02 20:41:20 by orakib           ###   ########.fr       */
+/*   Updated: 2023/08/03 16:59:04 by orakib           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,6 +25,8 @@ class	DiamondTrap: public ScavTrap, public FragTrap {
 		DiamondTrap(const DiamondTrap &object);
 		DiamondTrap	&operator=(const DiamondTrap &object);
 		~DiamondTrap();
+		using	ScavTrap::attack;
+		void	whoAmI();
 };
 
 #endif
